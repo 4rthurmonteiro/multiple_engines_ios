@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		0D61B20125BB8FDF00A1A590 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61B20025BB8FDF00A1A590 /* DataModel.swift */; };
 		0D61B20825BBEA9E00A1A590 /* SingleFlutterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61B20725BBEA9E00A1A590 /* SingleFlutterViewController.swift */; };
 		0D61B20B25BBF88700A1A590 /* DoubleFlutterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61B20A25BBF88700A1A590 /* DoubleFlutterViewController.swift */; };
+		B2360C202CA5C38100411CCE /* WebViewFlutterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2360C1F2CA5C38100411CCE /* WebViewFlutterController.swift */; };
 		DA84F1C17CFA00606F7B401C /* Pods_MultipleFluttersIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E03DC90CED28B2143B2CFB1 /* Pods_MultipleFluttersIos.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		4E03DC90CED28B2143B2CFB1 /* Pods_MultipleFluttersIos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultipleFluttersIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F02FEA4EA8C75406BC5FFC5 /* Pods-MultipleFluttersIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleFluttersIos.release.xcconfig"; path = "Target Support Files/Pods-MultipleFluttersIos/Pods-MultipleFluttersIos.release.xcconfig"; sourceTree = "<group>"; };
 		5EE6997543EAE7F85C674231 /* Pods-MultipleFluttersIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleFluttersIos.debug.xcconfig"; path = "Target Support Files/Pods-MultipleFluttersIos/Pods-MultipleFluttersIos.debug.xcconfig"; sourceTree = "<group>"; };
+		B2360C1F2CA5C38100411CCE /* WebViewFlutterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewFlutterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				0D61B1EF25BB8A2400A1A590 /* Info.plist */,
 				0D61B20725BBEA9E00A1A590 /* SingleFlutterViewController.swift */,
 				0D61B20A25BBF88700A1A590 /* DoubleFlutterViewController.swift */,
+				B2360C1F2CA5C38100411CCE /* WebViewFlutterController.swift */,
 			);
 			path = MultipleFluttersIos;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2360C202CA5C38100411CCE /* WebViewFlutterController.swift in Sources */,
 				0D61B20B25BBF88700A1A590 /* DoubleFlutterViewController.swift in Sources */,
 				0D61B1E625BB8A2300A1A590 /* HostViewController.swift in Sources */,
 				0D61B20125BB8FDF00A1A590 /* DataModel.swift in Sources */,
