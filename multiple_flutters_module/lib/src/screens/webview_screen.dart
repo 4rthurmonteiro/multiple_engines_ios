@@ -49,7 +49,7 @@ class HomeWebViewScreen extends StatelessWidget {
             Navigator.of(context).push(
               MaterialPageRoute(
                 builder: (context) => WebviewScreen(
-                  uri: Uri.parse('https://flutter.dev'),
+                  uri: uri,
                 ),
               ),
             );
