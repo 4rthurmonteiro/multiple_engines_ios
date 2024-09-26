@@ -1,6 +1,0 @@
-framework module Pods_MultiEnginesIOSTests {
-  umbrella header "Pods-MultiEnginesIOSTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
