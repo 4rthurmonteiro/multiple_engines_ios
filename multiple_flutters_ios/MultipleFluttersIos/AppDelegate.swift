@@ -4,6 +4,7 @@
 
 import Flutter
 import UIKit
+import GoogleMaps
 
 /// The app's UIApplicationDelegate.
 @main
@@ -28,7 +29,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         "📣 NOTICE: the memory and CPU costs for Flutter engine groups are significantly less here than in debug builds.  See also: https://github.com/dart-lang/sdk/issues/36097"
       )
     }
+    GMSServices.provideAPIKey(GoogleMapKey.key)
 
+      
     return true
   }
 

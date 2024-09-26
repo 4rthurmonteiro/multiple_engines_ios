@@ -16,10 +16,10 @@ void main() => runApp(
       ),
     );
 
-// @pragma('vm:entry-point')
-// void startGoogleMaps() => runApp(
-//       const FlutterModuleApp(child: HomeMapsScreen()),
-//     );
+@pragma('vm:entry-point')
+void startGoogleMaps() => runApp(
+      const FlutterModuleApp(child: HomeMapsScreen()),
+    );
 
 @pragma('vm:entry-point')
 void startWebviewFlutter() => runApp(

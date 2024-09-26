@@ -15,6 +15,8 @@
 		B2652F112CA5D34B00EBED52 /* WebViewFlutterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2652F102CA5D33F00EBED52 /* WebViewFlutterController.swift */; };
 		B2652F132CA5D37600EBED52 /* WebViewGoogleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2652F122CA5D36E00EBED52 /* WebViewGoogleController.swift */; };
 		B2652F152CA5D3DE00EBED52 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2652F142CA5D3DE00EBED52 /* TabController.swift */; };
+		B2652F172CA5DE2200EBED52 /* GoogleMapsFlutterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2652F162CA5DE1A00EBED52 /* GoogleMapsFlutterController.swift */; };
+		B2652F192CA5DFAB00EBED52 /* GoogleMapKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2652F182CA5DFA300EBED52 /* GoogleMapKey.swift */; };
 		DA84F1C17CFA00606F7B401C /* Pods_MultipleFluttersIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E03DC90CED28B2143B2CFB1 /* Pods_MultipleFluttersIos.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		B2652F102CA5D33F00EBED52 /* WebViewFlutterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewFlutterController.swift; sourceTree = "<group>"; };
 		B2652F122CA5D36E00EBED52 /* WebViewGoogleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewGoogleController.swift; sourceTree = "<group>"; };
 		B2652F142CA5D3DE00EBED52 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		B2652F162CA5DE1A00EBED52 /* GoogleMapsFlutterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsFlutterController.swift; sourceTree = "<group>"; };
+		B2652F182CA5DFA300EBED52 /* GoogleMapKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 		0D61B1E025BB8A2300A1A590 /* MultipleFluttersIos */ = {
 			isa = PBXGroup;
 			children = (
+				B2652F182CA5DFA300EBED52 /* GoogleMapKey.swift */,
+				B2652F162CA5DE1A00EBED52 /* GoogleMapsFlutterController.swift */,
 				B2652F122CA5D36E00EBED52 /* WebViewGoogleController.swift */,
 				B2652F102CA5D33F00EBED52 /* WebViewFlutterController.swift */,
 				B2652F0E2CA5D2B300EBED52 /* HomeController.swift */,
@@ -111,6 +117,7 @@
 				0D61B1DC25BB8A2300A1A590 /* Resources */,
 				D93C82A75960A3ABB9D69453 /* [CP] Embed Pods Frameworks */,
 				1E52EB4F55238254723656B2 /* [CP-User] Embed Flutter Build flutter_module Script */,
+				F84F9255F34AADB0156AA7BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,6 +232,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultipleFluttersIos/Pods-MultipleFluttersIos-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F84F9255F34AADB0156AA7BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultipleFluttersIos/Pods-MultipleFluttersIos-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultipleFluttersIos/Pods-MultipleFluttersIos-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultipleFluttersIos/Pods-MultipleFluttersIos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -233,10 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D61B1E225BB8A2300A1A590 /* AppDelegate.swift in Sources */,
+				B2652F192CA5DFAB00EBED52 /* GoogleMapKey.swift in Sources */,
 				B2652F112CA5D34B00EBED52 /* WebViewFlutterController.swift in Sources */,
 				B2652F152CA5D3DE00EBED52 /* TabController.swift in Sources */,
 				B2652F0F2CA5D2B800EBED52 /* HomeController.swift in Sources */,
 				B2652F132CA5D37600EBED52 /* WebViewGoogleController.swift in Sources */,
+				B2652F172CA5DE2200EBED52 /* GoogleMapsFlutterController.swift in Sources */,
 				0D61B1E425BB8A2300A1A590 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -361,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -379,7 +405,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MultipleFluttersIos/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,7 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MultipleFluttersIos/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

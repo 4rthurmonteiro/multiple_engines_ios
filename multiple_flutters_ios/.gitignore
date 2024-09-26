@@ -4,3 +4,5 @@ Pods/Pods.xcodeproj/xcuserdata
 MultipleFluttersIos.xcodeproj/xcuserdata
 Pods/
 MultipleFluttersIos.xcodeproj/xcshareddata/
+
+./MultipleFluttersIos/GoogleMapKey.swift

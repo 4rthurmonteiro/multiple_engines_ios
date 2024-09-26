@@ -12,7 +12,7 @@ class TabController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tabBar.backgroundColor = .white
-        let home = self.createNav(with: "Home", and: UIImage(systemName: "house"), vc: HomeController())
+        let home = self.createNav(with: "Home", and: UIImage(systemName: "house"), vc: GoogleMapsFlutterController())
         let flutterWebView = self.createNav(with: "Flutter Site", and: UIImage(systemName: "note"), vc: WebViewFlutterController())
         let googleWebView = self.createNav(with: "Google Site", and: UIImage(systemName: "note.text"), vc: WebViewGoogleController())
 
