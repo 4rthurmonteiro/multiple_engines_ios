@@ -3,8 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		0D28370D7F71B5E0FF116890 /* Pods_MultiEnginesIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECC17C886463B2131962F70 /* Pods_MultiEnginesIOS.framework */; };
+		2D637AE3EEE8E6005F1F3314 /* Pods_MultiEnginesIOS_MultiEnginesIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872AFC99B3948DC7534295FF /* Pods_MultiEnginesIOS_MultiEnginesIOSUITests.framework */; };
+		B21AB1752C9DE864000C1E45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21AB16F2C9DE864000C1E45 /* Preview Assets.xcassets */; };
+		B21AB1762C9DE864000C1E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21AB1712C9DE864000C1E45 /* Assets.xcassets */; };
+		B21AB1772C9DE864000C1E45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AB1722C9DE864000C1E45 /* ContentView.swift */; };
+		B21AB1782C9DE864000C1E45 /* MultiEnginesIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AB1732C9DE864000C1E45 /* MultiEnginesIOSApp.swift */; };
+		B21AB17B2C9DE870000C1E45 /* MultiEnginesIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AB1792C9DE870000C1E45 /* MultiEnginesIOSTests.swift */; };
+		B21AB17F2C9DE876000C1E45 /* MultiEnginesIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AB17C2C9DE876000C1E45 /* MultiEnginesIOSUITests.swift */; };
+		B21AB1802C9DE876000C1E45 /* MultiEnginesIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AB17D2C9DE876000C1E45 /* MultiEnginesIOSUITestsLaunchTests.swift */; };
+		B290EEAC2C9DF2CF00E966F8 /* FlutterGoogleWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290EEAB2C9DF2CF00E966F8 /* FlutterGoogleWebView.swift */; };
+		D809FEA41E615C3F92959AE1 /* Pods_MultiEnginesIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BB0CBE71CCFD3A72BA27E6 /* Pods_MultiEnginesIOSTests.framework */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B237CD6C2C9C5DFB006A4AF9 /* PBXContainerItemProxy */ = {
@@ -24,34 +38,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019BF6B56BC558FEBE3251B9 /* Pods-MultiEnginesIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiEnginesIOS.debug.xcconfig"; path = "Target Support Files/Pods-MultiEnginesIOS/Pods-MultiEnginesIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		61399F6A03232BB8B2BC6CE2 /* Pods-MultiEnginesIOS-MultiEnginesIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiEnginesIOS-MultiEnginesIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-MultiEnginesIOS-MultiEnginesIOSUITests/Pods-MultiEnginesIOS-MultiEnginesIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62C17248AB120DE1B712E545 /* Pods-MultiEnginesIOS-MultiEnginesIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiEnginesIOS-MultiEnginesIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-MultiEnginesIOS-MultiEnginesIOSUITests/Pods-MultiEnginesIOS-MultiEnginesIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A2C4C423371A3B3F6E7B734 /* Pods-MultiEnginesIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiEnginesIOSTests.release.xcconfig"; path = "Target Support Files/Pods-MultiEnginesIOSTests/Pods-MultiEnginesIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		872AFC99B3948DC7534295FF /* Pods_MultiEnginesIOS_MultiEnginesIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiEnginesIOS_MultiEnginesIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A6625F5322536539FC1254 /* Pods-MultiEnginesIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiEnginesIOS.release.xcconfig"; path = "Target Support Files/Pods-MultiEnginesIOS/Pods-MultiEnginesIOS.release.xcconfig"; sourceTree = "<group>"; };
+		8ECC17C886463B2131962F70 /* Pods_MultiEnginesIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiEnginesIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21AB16F2C9DE864000C1E45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B21AB1712C9DE864000C1E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B21AB1722C9DE864000C1E45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B21AB1732C9DE864000C1E45 /* MultiEnginesIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiEnginesIOSApp.swift; sourceTree = "<group>"; };
+		B21AB1792C9DE870000C1E45 /* MultiEnginesIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiEnginesIOSTests.swift; sourceTree = "<group>"; };
+		B21AB17C2C9DE876000C1E45 /* MultiEnginesIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiEnginesIOSUITests.swift; sourceTree = "<group>"; };
+		B21AB17D2C9DE876000C1E45 /* MultiEnginesIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiEnginesIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B237CD5B2C9C5DFA006A4AF9 /* MultiEnginesIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiEnginesIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B237CD6B2C9C5DFB006A4AF9 /* MultiEnginesIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiEnginesIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B237CD752C9C5DFB006A4AF9 /* MultiEnginesIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiEnginesIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B290EEAB2C9DF2CF00E966F8 /* FlutterGoogleWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterGoogleWebView.swift; sourceTree = "<group>"; };
+		D0BB0CBE71CCFD3A72BA27E6 /* Pods_MultiEnginesIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiEnginesIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B77153888FC057B729449B /* Pods-MultiEnginesIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiEnginesIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MultiEnginesIOSTests/Pods-MultiEnginesIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B237CD5D2C9C5DFA006A4AF9 /* MultiEnginesIOS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MultiEnginesIOS;
-			sourceTree = "<group>";
-		};
-		B237CD6E2C9C5DFB006A4AF9 /* MultiEnginesIOSTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MultiEnginesIOSTests;
-			sourceTree = "<group>";
-		};
-		B237CD782C9C5DFB006A4AF9 /* MultiEnginesIOSUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MultiEnginesIOSUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B237CD582C9C5DFA006A4AF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D28370D7F71B5E0FF116890 /* Pods_MultiEnginesIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D809FEA41E615C3F92959AE1 /* Pods_MultiEnginesIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,30 +81,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D637AE3EEE8E6005F1F3314 /* Pods_MultiEnginesIOS_MultiEnginesIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30E2F9DB44F1AA863866980F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC17C886463B2131962F70 /* Pods_MultiEnginesIOS.framework */,
+				872AFC99B3948DC7534295FF /* Pods_MultiEnginesIOS_MultiEnginesIOSUITests.framework */,
+				D0BB0CBE71CCFD3A72BA27E6 /* Pods_MultiEnginesIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B21AB1702C9DE864000C1E45 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B21AB16F2C9DE864000C1E45 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B21AB1742C9DE864000C1E45 /* MultiEnginesIOS */ = {
+			isa = PBXGroup;
+			children = (
+				B21AB1702C9DE864000C1E45 /* Preview Content */,
+				B21AB1712C9DE864000C1E45 /* Assets.xcassets */,
+				B21AB1722C9DE864000C1E45 /* ContentView.swift */,
+				B21AB1732C9DE864000C1E45 /* MultiEnginesIOSApp.swift */,
+				B290EEAB2C9DF2CF00E966F8 /* FlutterGoogleWebView.swift */,
+			);
+			path = MultiEnginesIOS;
+			sourceTree = "<group>";
+		};
+		B21AB17A2C9DE870000C1E45 /* MultiEnginesIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B21AB1792C9DE870000C1E45 /* MultiEnginesIOSTests.swift */,
+			);
+			path = MultiEnginesIOSTests;
+			sourceTree = "<group>";
+		};
+		B21AB17E2C9DE876000C1E45 /* MultiEnginesIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B21AB17C2C9DE876000C1E45 /* MultiEnginesIOSUITests.swift */,
+				B21AB17D2C9DE876000C1E45 /* MultiEnginesIOSUITestsLaunchTests.swift */,
+			);
+			path = MultiEnginesIOSUITests;
+			sourceTree = "<group>";
+		};
 		B237CD522C9C5DFA006A4AF9 = {
 			isa = PBXGroup;
 			children = (
-				B237CD5D2C9C5DFA006A4AF9 /* MultiEnginesIOS */,
-				B237CD6E2C9C5DFB006A4AF9 /* MultiEnginesIOSTests */,
-				B237CD782C9C5DFB006A4AF9 /* MultiEnginesIOSUITests */,
+				B21AB1742C9DE864000C1E45 /* MultiEnginesIOS */,
+				B21AB17A2C9DE870000C1E45 /* MultiEnginesIOSTests */,
+				B21AB17E2C9DE876000C1E45 /* MultiEnginesIOSUITests */,
 				B237CD5C2C9C5DFA006A4AF9 /* Products */,
+				EB7615D5AD86FEC8F6BFF0AD /* Pods */,
+				30E2F9DB44F1AA863866980F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B237CD5C2C9C5DFA006A4AF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B237CD5B2C9C5DFA006A4AF9 /* MultiEnginesIOS.app */,
 				B237CD6B2C9C5DFB006A4AF9 /* MultiEnginesIOSTests.xctest */,
+				B237CD5B2C9C5DFA006A4AF9 /* MultiEnginesIOS.app */,
 				B237CD752C9C5DFB006A4AF9 /* MultiEnginesIOSUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7615D5AD86FEC8F6BFF0AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89A6625F5322536539FC1254 /* Pods-MultiEnginesIOS.release.xcconfig */,
+				62C17248AB120DE1B712E545 /* Pods-MultiEnginesIOS-MultiEnginesIOSUITests.debug.xcconfig */,
+				019BF6B56BC558FEBE3251B9 /* Pods-MultiEnginesIOS.debug.xcconfig */,
+				61399F6A03232BB8B2BC6CE2 /* Pods-MultiEnginesIOS-MultiEnginesIOSUITests.release.xcconfig */,
+				F0B77153888FC057B729449B /* Pods-MultiEnginesIOSTests.debug.xcconfig */,
+				7A2C4C423371A3B3F6E7B734 /* Pods-MultiEnginesIOSTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,20 +177,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B237CD7F2C9C5DFB006A4AF9 /* Build configuration list for PBXNativeTarget "MultiEnginesIOS" */;
 			buildPhases = (
+				42CFCB164FF6058403E1B64F /* [CP] Check Pods Manifest.lock */,
+				C0B3B49EEA0394C15DBC9899 /* [CP-User] Run Flutter Build flutter_module Script */,
 				B237CD572C9C5DFA006A4AF9 /* Sources */,
 				B237CD582C9C5DFA006A4AF9 /* Frameworks */,
 				B237CD592C9C5DFA006A4AF9 /* Resources */,
+				BCD542F5103FB71B9700EED6 /* [CP] Embed Pods Frameworks */,
+				0F41A64780C60C6A4EB07C6D /* [CP-User] Embed Flutter Build flutter_module Script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				B237CD5D2C9C5DFA006A4AF9 /* MultiEnginesIOS */,
-			);
 			name = MultiEnginesIOS;
-			packageProductDependencies = (
-			);
 			productName = MultiEnginesIOS;
 			productReference = B237CD5B2C9C5DFA006A4AF9 /* MultiEnginesIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B237CD822C9C5DFB006A4AF9 /* Build configuration list for PBXNativeTarget "MultiEnginesIOSTests" */;
 			buildPhases = (
+				415C5FBC73A2E2135058104C /* [CP] Check Pods Manifest.lock */,
 				B237CD672C9C5DFB006A4AF9 /* Sources */,
 				B237CD682C9C5DFB006A4AF9 /* Frameworks */,
 				B237CD692C9C5DFB006A4AF9 /* Resources */,
@@ -130,12 +208,7 @@
 			dependencies = (
 				B237CD6D2C9C5DFB006A4AF9 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B237CD6E2C9C5DFB006A4AF9 /* MultiEnginesIOSTests */,
-			);
 			name = MultiEnginesIOSTests;
-			packageProductDependencies = (
-			);
 			productName = MultiEnginesIOSTests;
 			productReference = B237CD6B2C9C5DFB006A4AF9 /* MultiEnginesIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,21 +217,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B237CD852C9C5DFB006A4AF9 /* Build configuration list for PBXNativeTarget "MultiEnginesIOSUITests" */;
 			buildPhases = (
+				FD3FEA0BB7ED0B137F6F0F19 /* [CP] Check Pods Manifest.lock */,
 				B237CD712C9C5DFB006A4AF9 /* Sources */,
 				B237CD722C9C5DFB006A4AF9 /* Frameworks */,
 				B237CD732C9C5DFB006A4AF9 /* Resources */,
+				B65D5E7F8E7293DC74980391 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B237CD772C9C5DFB006A4AF9 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B237CD782C9C5DFB006A4AF9 /* MultiEnginesIOSUITests */,
-			);
 			name = MultiEnginesIOSUITests;
-			packageProductDependencies = (
-			);
 			productName = MultiEnginesIOSUITests;
 			productReference = B237CD752C9C5DFB006A4AF9 /* MultiEnginesIOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -187,6 +257,7 @@
 				};
 			};
 			buildConfigurationList = B237CD562C9C5DFA006A4AF9 /* Build configuration list for PBXProject "MultiEnginesIOS" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +266,6 @@
 			);
 			mainGroup = B237CD522C9C5DFA006A4AF9;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = B237CD5C2C9C5DFA006A4AF9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -212,6 +282,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21AB1752C9DE864000C1E45 /* Preview Assets.xcassets in Resources */,
+				B21AB1762C9DE864000C1E45 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +303,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F41A64780C60C6A4EB07C6D /* [CP-User] Embed Flutter Build flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../multiple_flutters_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		415C5FBC73A2E2135058104C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiEnginesIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42CFCB164FF6058403E1B64F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiEnginesIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65D5E7F8E7293DC74980391 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiEnginesIOS-MultiEnginesIOSUITests/Pods-MultiEnginesIOS-MultiEnginesIOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiEnginesIOS-MultiEnginesIOSUITests/Pods-MultiEnginesIOS-MultiEnginesIOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiEnginesIOS-MultiEnginesIOSUITests/Pods-MultiEnginesIOS-MultiEnginesIOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD542F5103FB71B9700EED6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiEnginesIOS/Pods-MultiEnginesIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiEnginesIOS/Pods-MultiEnginesIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiEnginesIOS/Pods-MultiEnginesIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B3B49EEA0394C15DBC9899 /* [CP-User] Run Flutter Build flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../multiple_flutters_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		FD3FEA0BB7ED0B137F6F0F19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiEnginesIOS-MultiEnginesIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B237CD572C9C5DFA006A4AF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B290EEAC2C9DF2CF00E966F8 /* FlutterGoogleWebView.swift in Sources */,
+				B21AB1772C9DE864000C1E45 /* ContentView.swift in Sources */,
+				B21AB1782C9DE864000C1E45 /* MultiEnginesIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21AB17B2C9DE870000C1E45 /* MultiEnginesIOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +449,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21AB17F2C9DE876000C1E45 /* MultiEnginesIOSUITests.swift in Sources */,
+				B21AB1802C9DE876000C1E45 /* MultiEnginesIOSUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,14 +591,16 @@
 		};
 		B237CD802C9C5DFB006A4AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019BF6B56BC558FEBE3251B9 /* Pods-MultiEnginesIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MultiEnginesIOS/Preview Content\"";
-				DEVELOPMENT_TEAM = HU3JS72CT5;
+				DEVELOPMENT_TEAM = 5ATJMV873D;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -419,14 +622,16 @@
 		};
 		B237CD812C9C5DFB006A4AF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A6625F5322536539FC1254 /* Pods-MultiEnginesIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MultiEnginesIOS/Preview Content\"";
-				DEVELOPMENT_TEAM = HU3JS72CT5;
+				DEVELOPMENT_TEAM = 5ATJMV873D;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -448,6 +653,7 @@
 		};
 		B237CD832C9C5DFB006A4AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B77153888FC057B729449B /* Pods-MultiEnginesIOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +673,7 @@
 		};
 		B237CD842C9C5DFB006A4AF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2C4C423371A3B3F6E7B734 /* Pods-MultiEnginesIOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +693,7 @@
 		};
 		B237CD862C9C5DFB006A4AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C17248AB120DE1B712E545 /* Pods-MultiEnginesIOS-MultiEnginesIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +711,7 @@
 		};
 		B237CD872C9C5DFB006A4AF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61399F6A03232BB8B2BC6CE2 /* Pods-MultiEnginesIOS-MultiEnginesIOSUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

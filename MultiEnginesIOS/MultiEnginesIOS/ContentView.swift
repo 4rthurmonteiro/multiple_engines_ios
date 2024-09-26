@@ -9,16 +9,45 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            VStack {
+                Text("Home View")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                    .background(Color.blue)
+            }
+            .tabItem {
+                Image(systemName: "house.fill")
+                Text("Home")
+            }
+            .tag(0)
+
+            VStack {
+                Text("Search View")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                    .background(Color.gray)
+            }
+            .tabItem {
+                Image(systemName: "magnifyingglass")
+                Text("Search")
+            }
+            .tag(1)
+
+            VStack {
+                Text("Profile View")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+                    .background(Color.green)
+            }
+            .tabItem {
+                Image(systemName: "person.fill")
+                Text("Profile")
+            }
+            .tag(2)
         }
-        .padding()
     }
 }
-
 #Preview {
     ContentView()
 }
